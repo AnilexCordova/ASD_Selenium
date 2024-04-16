@@ -1,0 +1,14 @@
+package pom;
+
+public class login 
+{
+	@FindBy(id = "floating_filled_email")
+	public static WebElement emailAddress;
+	
+	@FindBy(id = "floating_filled_password")
+	public static WebElement password;
+	
+	@FindBy(xpath = "//button/span[text()='Sign In']")
+	public static WebElement signIn;
+
+}
